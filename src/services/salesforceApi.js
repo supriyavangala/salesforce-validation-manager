@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:4000";
+const BACKEND_URL = "https://salesforce-validation-manager-eta.vercel.app";
 
 function getHeaders() {
   const token = localStorage.getItem("sf_access_token");
